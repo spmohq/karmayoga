@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siva's Facebook Post</title>
+  <link rel="icon" type="image/x-icon" href="spm.ico" />
+  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=68433345a7cb4a0019841b7c&product=sop' async='async'></script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript"> 
+        $(function () { $(this).bind("contextmenu", function (e) { e.preventDefault(); }); }); 
+    </script>
+    
+    <script>
+        document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 85 )) {
+                return false;
+            }
+        };
+    </script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f5;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-weight: 500;
+      color: #333;
+      margin-top: 0;
+    }
+
+    .follow-button,
+    .whatsapp-button {
+      display: inline-block;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      margin-bottom: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .follow-button {
+      background-color: #1877F2; /* Facebook Blue */
+      color: white;
+    }
+
+    .follow-button:hover {
+      background-color: #145dbf;
+    }
+
+    .fb-embed-wrapper {
+      margin: 30px auto 0; 
+      max-width: 500px; 
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden; 
+    }
+
+    .fb-embed-wrapper iframe {
+      width: 100%;
+      border: none;
+      display: block; 
+    }
+  </style>
+</head>
+
+<BODY oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+
+  <h3>Siva Prasad Mukherjee's Facebook Posts on:</h3>
+  <h1>কর্মযোগ</h1>
+  <div style="padding-top: 10px;"> </div>
+  <div class="follow-button" onclick="openFacebookApp()">Follow Siva on Facebook</div><br />
+
+<p><sub>(পুরো পোস্টটা পড়ার জন্যে ছবির উপরের ফেসবুক আইকনটায় ক্লিক করুন)</sub></p>
+
+  <div class="fb-embed-wrapper" role="region" aria-label="Embedded Facebook post from Siva">
+    <!--Embed BEGIN-->
+
+    <!-- THE ONLY CHANGE IS HERE: Increased height from 473 to 600 -->
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsocjhq%2Fposts%2Fpfbid0S6eAfepd7sHRnb7fCb2fh8X2hKo97FxP8p4tmwLUuRhH9fvxQRyNn2qyNYksuBPYl&show_text=true&width=500" width="500" height="612" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+    <!--Embed END-->
+  </div>
+
+  <div class="fb-embed-wrapper" role="region" aria-label="Embedded Facebook post from Siva">
+    <!--Embed BEGIN-->
+    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsocjhq%2Fposts%2Fpfbid0qwZwgoPdDyKPYY7tuVhsNJFEq1H4wWYS1djVbBoWNCckM9iB1LnkUM2JcxRGAe7Tl&show_text=true&width=500" width="500" height="683" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    <!--Embed END-->
+  </div>
+
+    <p style="text-align: center; margin-top: 50px;">
+      <span style="font-size: 12pt; font-family: lora, serif; color: #000000;">
+        Copyright &copy; <script>document.write(new Date().getFullYear())</script>.&nbsp;Siva Prasad Mukherjee.
+      </span>
+    </p>
+
+  <script>
+    function openFacebookApp() {
+      // The numeric ID for the profile socjhq
+      const profileId = "100003058987449"; 
+      // The profile URL to fall back to if the app doesn't open
+      const fallbackUrl = "https://www.facebook.com/socjhq/";
+
+      // Attempt to open in the Facebook app using profile deep link
+      window.location = "fb://profile/" + profileId;
+
+      // Fallback to browser after a delay
+      setTimeout(() => {
+        window.location.href = fallbackUrl;
+      }, 1500);
+    }
+  </script>
+
+</body>
+</html>
